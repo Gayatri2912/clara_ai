@@ -2,9 +2,21 @@
 
 Automates AI receptionist configuration from call transcripts. Reads demo calls, extracts business rules, generates agent configs in 2-3 minutes vs 45 minutes manually.
 
+***What this project does: ***
+
+Takes phone call transcripts (text conversations) and automatically generates AI receptionist configurations in 2-3 minutes instead of doing it manually in 45 minutes.
+
+Two pipelines:
+
+Demo call → v1 config: Reads the initial demo call, extracts business hours, services, emergency rules, and creates the first AI agent configuration
+
+Onboarding call → v2 config: When customers give feedback, it updates the configuration and generates a detailed changelog showing what changed and why
+
+Key achievement: Built it completely free using local AI (Ollama), processed 6 accounts with 4 complete v1→v2 updates (400% over the requirement), and ensured the AI never invents information - only extracts what's actually stated in the transcripts.
+
 ## Results
 
-- **6 accounts processed** (requirement: 5)
+- **6 accounts processed** 
 - **4 complete v1→v2 pipelines** (requirement: 1) - 400% over requirement
 - **13 changes tracked** in largest update (Rapid Response HVAC)
 - **$0.00 cost** - 100% free local AI
@@ -21,29 +33,28 @@ Automates AI receptionist configuration from call transcripts. Reads demo calls,
 2. Compares v1 vs new information
 3. Generates updated config with detailed changelog
 
-## How I Achieved 100+ Points
 
-**Automation (35 points)**
+**Automation 
 - Batch processing with automatic retry logic (3 attempts)
 - Error logging without stopping pipeline
 - Task tracking system for progress monitoring
 
-**Data Quality (30 points)**
+**Data Quality 
 - Strict extraction rules - no hallucination
 - Unknown information flagged, not guessed
 - All data verifiable against source transcripts
 
-**Code Quality (20 points)**
+**Code Quality 
 - Modular design with shared utilities
 - Version control (v1/v2 folders preserve history)
 - Comprehensive error logging with context
 
-**Documentation (15 points)**
+**Documentation 
 - Complete setup instructions
 - Architecture and prompt engineering docs
 - Troubleshooting guide
 
-**Bonus Points (+15)**
+**Bonus Points 
 - Automated task tracker showing pipeline status
 - Changelog generator with reason tracking
 - Batch summary reports with statistics
@@ -52,25 +63,6 @@ Automates AI receptionist configuration from call transcripts. Reads demo calls,
 
 Python 3.11 | Ollama (local AI) | Pydantic validation | JSON storage | SQLite tracking
 
-## Quick Start
-
-```bash
-# Setup
-python -m venv venv
-venv\Scripts\activate
-pip install -r requirements.txt
-
-# Run demo → v1
-python scripts/extract_account_memo.py dataset/demo_calls/bens_electric_demo.txt
-python scripts/generate_agent_spec.py outputs/accounts/bens_electric_001/v1/account_memo.json
-
-# Run onboarding → v2
-python scripts/update_agent_version.py --account-id bens_electric_001 --onboarding dataset/onboarding_calls/bens_electric_onboarding.txt
-
-# View reports
-python scripts/task_tracker.py summary
-python scripts/generate_batch_summary.py
-```
 
 ## Project Structure
 
@@ -89,6 +81,7 @@ outputs/          # Generated configs organized by account
 - Semantic understanding - recognizes intent, not just keywords
 - Automatic versioning with detailed changelogs
 - Production-ready error handling and retry logic
+  
 
 ## Documentation
 
