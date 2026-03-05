@@ -1,0 +1,363 @@
+{
+  "name": "Clara AI Automation Pipeline",
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "start-node",
+      "name": "Start",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [250, 300]
+    },
+    {
+      "parameters": {
+        "path": "dataset/demo_calls/*.txt",
+        "fileType": "text"
+      },
+      "id": "read-demo-calls",
+      "name": "Read Demo Call Transcripts",
+      "type": "n8n-nodes-base.readFileFromFilesystem",
+      "typeVersion": 1,
+      "position": [450, 300],
+      "notes": "Reads all demo call transcript files from dataset/demo_calls/"
+    },
+    {
+      "parameters": {
+        "functionCode": "// Extract company name from filename and assign account ID\nconst filename = $input.item.fileName;\nconst companyName = filename.replace('_demo.txt', '').replace(/_/g, ' ');\nconst accountId = filename.replace('_demo.txt', '') + '_001';\n\nreturn {\n  json: {\n    transcript: $input.item.data,\n    filename: filename,\n    companyName: companyName,\n    accountId: accountId,\n    stage: 'demo_call'\n  }\n};"
+      },
+      "id": "normalize-input",
+      "name": "Normalize Input",
+      "type": "n8n-nodes-base.function",
+      "typeVersion": 1,
+      "position": [650, 300]
+    },
+    {
+      "parameters": {
+        "command": "python scripts/extract_account_memo.py {{ $json.filename }}",
+        "workingDirectory": "/workspace/clara-ai-pipeline"
+      },
+      "id": "extract-memo",
+      "name": "Extract Account Memo (LLM)",
+      "type": "n8n-nodes-base.executeCommand",
+      "typeVersion": 1,
+      "position": [850, 300],
+      "notes": "Calls Python script to extract structured data using Ollama LLM"
+    },
+    {
+      "parameters": {
+        "command": "python scripts/generate_agent_spec.py outputs/accounts/{{ $json.accountId }}/v1/account_memo.json",
+        "workingDirectory": "/workspace/clara-ai-pipeline"
+      },
+      "id": "generate-agent",
+      "name": "Generate Retell Agent Spec",
+      "type": "n8n-nodes-base.executeCommand",
+      "typeVersion": 1,
+      "position": [1050, 300],
+      "notes": "Generates Retell AI agent configuration and system prompt"
+    },
+    {
+      "parameters": {
+        "path": "outputs/accounts/{{ $json.accountId }}/v1/agent_spec.json",
+        "fileType": "json"
+      },
+      "id": "read-agent-spec",
+      "name": "Read Agent Spec",
+      "type": "n8n-nodes-base.readFileFromFilesystem",
+      "typeVersion": 1,
+      "position": [1250, 300]
+    },
+    {
+      "parameters": {
+        "functionCode": "// Create task tracker entry\nconst accountId = $json.accountId;\nconst companyName = $json.companyName;\n\nreturn {\n  json: {\n    accountId: accountId,\n    companyName: companyName,\n    status: 'v1_created',\n    timestamp: new Date().toISOString(),\n    agentSpec: $json.spec\n  }\n};"
+      },
+      "id": "create-task",
+      "name": "Create Task Tracker Entry",
+      "type": "n8n-nodes-base.function",
+      "typeVersion": 1,
+      "position": [1450, 300],
+      "notes": "Logs completion in task tracker (JSON or Asana-compatible format)"
+    },
+    {
+      "parameters": {
+        "path": "outputs/task_tracker.json",
+        "data": "={{ JSON.stringify($json) }}"
+      },
+      "id": "save-task",
+      "name": "Save to Task Tracker",
+      "type": "n8n-nodes-base.writeFileToFilesystem",
+      "typeVersion": 1,
+      "position": [1650, 300]
+    },
+    {
+      "parameters": {},
+      "id": "wait-for-onboarding",
+      "name": "Wait for Onboarding Calls",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [450, 500],
+      "notes": "Onboarding pipeline starts here"
+    },
+    {
+      "parameters": {
+        "path": "dataset/onboarding_calls/*.txt",
+        "fileType": "text"
+      },
+      "id": "read-onboarding-calls",
+      "name": "Read Onboarding Call Transcripts",
+      "type": "n8n-nodes-base.readFileFromFilesystem",
+      "typeVersion": 1,
+      "position": [650, 500]
+    },
+    {
+      "parameters": {
+        "functionCode": "// Match onboarding call to existing account\nconst filename = $input.item.fileName;\nconst accountId = filename.replace('_onboarding.txt', '') + '_001';\n\nreturn {\n  json: {\n    transcript: $input.item.data,\n    filename: filename,\n    accountId: accountId,\n    stage: 'onboarding_call'\n  }\n};"
+      },
+      "id": "match-account",
+      "name": "Match to Existing Account",
+      "type": "n8n-nodes-base.function",
+      "typeVersion": 1,
+      "position": [850, 500]
+    },
+    {
+      "parameters": {
+        "command": "python scripts/update_agent_version.py --account-id {{ $json.accountId }} --onboarding {{ $json.filename }}",
+        "workingDirectory": "/workspace/clara-ai-pipeline"
+      },
+      "id": "update-agent",
+      "name": "Update Agent to v2 (LLM)",
+      "type": "n8n-nodes-base.executeCommand",
+      "typeVersion": 1,
+      "position": [1050, 500],
+      "notes": "Extracts updates, applies to v1, generates v2 + changelog"
+    },
+    {
+      "parameters": {
+        "path": "outputs/accounts/{{ $json.accountId }}/v2/changelog.md",
+        "fileType": "text"
+      },
+      "id": "read-changelog",
+      "name": "Read Changelog",
+      "type": "n8n-nodes-base.readFileFromFilesystem",
+      "typeVersion": 1,
+      "position": [1250, 500]
+    },
+    {
+      "parameters": {
+        "functionCode": "// Update task tracker to v2 complete\nconst accountId = $json.accountId;\n\nreturn {\n  json: {\n    accountId: accountId,\n    status: 'v2_created',\n    timestamp: new Date().toISOString(),\n    changelog: $json.changelog\n  }\n};"
+      },
+      "id": "update-task",
+      "name": "Update Task to v2 Complete",
+      "type": "n8n-nodes-base.function",
+      "typeVersion": 1,
+      "position": [1450, 500]
+    },
+    {
+      "parameters": {
+        "path": "outputs/task_tracker.json",
+        "data": "={{ JSON.stringify($json) }}"
+      },
+      "id": "save-task-update",
+      "name": "Save Task Update",
+      "type": "n8n-nodes-base.writeFileToFilesystem",
+      "typeVersion": 1,
+      "position": [1650, 500]
+    },
+    {
+      "parameters": {
+        "functionCode": "// Generate summary report\nconst fs = require('fs');\nconst tracker = JSON.parse(fs.readFileSync('outputs/task_tracker.json'));\n\nconst summary = {\n  totalAccounts: Object.keys(tracker.accounts).length,\n  v1Created: 0,\n  v2Created: 0,\n  complete: []\n};\n\nfor (const [id, account] of Object.entries(tracker.accounts)) {\n  if (account.status === 'v1_created') summary.v1Created++;\n  if (account.status === 'v2_created') summary.v2Created++;\n  if (account.status === 'v2_created') {\n    summary.complete.push({\n      company: account.companyName,\n      accountId: id\n    });\n  }\n}\n\nreturn { json: summary };"
+      },
+      "id": "generate-summary",
+      "name": "Generate Summary Report",
+      "type": "n8n-nodes-base.function",
+      "typeVersion": 1,
+      "position": [850, 700],
+      "notes": "Creates batch processing summary"
+    },
+    {
+      "parameters": {
+        "path": "outputs/pipeline_summary.json",
+        "data": "={{ JSON.stringify($json) }}"
+      },
+      "id": "save-summary",
+      "name": "Save Summary Report",
+      "type": "n8n-nodes-base.writeFileToFilesystem",
+      "typeVersion": 1,
+      "position": [1050, 700]
+    }
+  ],
+  "connections": {
+    "Start": {
+      "main": [
+        [
+          {
+            "node": "Read Demo Call Transcripts",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Read Demo Call Transcripts": {
+      "main": [
+        [
+          {
+            "node": "Normalize Input",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Normalize Input": {
+      "main": [
+        [
+          {
+            "node": "Extract Account Memo (LLM)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Extract Account Memo (LLM)": {
+      "main": [
+        [
+          {
+            "node": "Generate Retell Agent Spec",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Generate Retell Agent Spec": {
+      "main": [
+        [
+          {
+            "node": "Read Agent Spec",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Read Agent Spec": {
+      "main": [
+        [
+          {
+            "node": "Create Task Tracker Entry",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Create Task Tracker Entry": {
+      "main": [
+        [
+          {
+            "node": "Save to Task Tracker",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Wait for Onboarding Calls": {
+      "main": [
+        [
+          {
+            "node": "Read Onboarding Call Transcripts",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Read Onboarding Call Transcripts": {
+      "main": [
+        [
+          {
+            "node": "Match to Existing Account",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Match to Existing Account": {
+      "main": [
+        [
+          {
+            "node": "Update Agent to v2 (LLM)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Update Agent to v2 (LLM)": {
+      "main": [
+        [
+          {
+            "node": "Read Changelog",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Read Changelog": {
+      "main": [
+        [
+          {
+            "node": "Update Task to v2 Complete",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Update Task to v2 Complete": {
+      "main": [
+        [
+          {
+            "node": "Save Task Update",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Save Task Update": {
+      "main": [
+        [
+          {
+            "node": "Generate Summary Report",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Generate Summary Report": {
+      "main": [
+        [
+          {
+            "node": "Save Summary Report",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "staticData": null,
+  "tags": [],
+  "triggerCount": 1,
+  "updatedAt": "2026-03-04T00:00:00.000Z",
+  "versionId": "1"
+}

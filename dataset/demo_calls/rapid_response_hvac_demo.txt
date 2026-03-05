@@ -1,0 +1,61 @@
+Demo Call Transcript - Rapid Response HVAC
+
+Agent: Thank you for calling, this is Jennifer. How can I help you?
+
+Customer: Hi Jennifer, this is Tom Rodriguez. I'm the general manager at Rapid Response HVAC. I'm calling to set up the AI answering service we discussed.
+
+Agent: Perfect! Let's get you all set up. Can you start by confirming your business name?
+
+Customer: It's Rapid Response HVAC Services.
+
+Agent: Great. And what's your main office location?
+
+Customer: We're at 5678 Oak Avenue, Austin, Texas, 78701.
+
+Agent: Perfect. What are your normal business hours?
+
+Customer: We're open seven days a week. Monday through Saturday we're open 7 AM to 7 PM, and Sundays we're open 9 AM to 5 PM. All Central Time.
+
+Agent: Excellent, seven days a week coverage. What services do you provide?
+
+Customer: We do air conditioning repair and installation, heating system repair and installation, duct cleaning, air quality testing, preventive maintenance, and 24/7 emergency HVAC service.
+
+Agent: Great. Speaking of emergencies, how do you define what qualifies as an emergency call?
+
+Customer: For us, emergencies are no AC in summer when it's above 90 degrees, no heat in winter when it's below 40 degrees, complete system failure, gas smell from the furnace, and carbon monoxide detector going off.
+
+Agent: Those are clear criteria. For emergency calls, who should the system contact?
+
+Customer: We have a rotating on-call schedule. The system should try the on-call number which is 512-555-0200. That's a dedicated line that forwards to whoever is on call. If there's no answer after 45 seconds, try our emergency dispatch line at 512-555-0201. If that doesn't work, try me directly at 512-555-0202.
+
+Agent: Got it. And if none of those work?
+
+Customer: Take their information - name, phone, address, and details about the emergency. Tell them we'll have a technician call them within 15 minutes. We take emergencies very seriously.
+
+Agent: Understood. What about non-emergency calls during business hours?
+
+Customer: During business hours, collect their name, phone, address, and what kind of service they need. Then let them know we'll call them back within one hour to schedule an appointment.
+
+Agent: And after hours for non-emergencies?
+
+Customer: After hours, take their info and let them know someone will reach out first thing the next morning. For us, first thing means by 8 AM since we open at 7.
+
+Agent: Makes sense. Any special instructions or systems we should be aware of?
+
+Customer: We use Housecall Pro for scheduling and dispatch. The AI shouldn't try to create appointments in there - that's something we handle internally. Also, if someone calls about preventive maintenance contracts, don't try to process that through the AI - those calls should be flagged for callback because they require detailed discussion about options and pricing.
+
+Agent: That's very helpful. Anything else?
+
+Customer: Yeah, one thing - we're in Texas and summers are brutal. During heat waves, we get slammed. The AI should be patient but efficient. People calling about AC in July are already hot and frustrated, so make sure the system is empathetic but gets the info quickly so we can help them fast.
+
+Agent: Absolutely, I understand. We'll make sure the tone is empathetic and efficient. I think I have everything I need to set up your system.
+
+Customer: Sounds great, when can we test it?
+
+Agent: I'll have the initial configuration ready by tomorrow afternoon and we can do a test call together.
+
+Customer: Perfect, thanks Jennifer!
+
+Agent: Thank you Tom, talk soon!
+
+[End of demo call]

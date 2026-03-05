@@ -1,0 +1,142 @@
+ONBOARDING CALL TRANSCRIPT - Green Leaf Lawn Care
+
+Date: February 24, 2026
+Duration: 24 minutes
+Client: Green Leaf Lawn Care (Sarah Chen, Owner/Operator)
+Clara AI Onboarding Specialist: Marcus Johnson
+
+---
+
+Marcus: Good morning Sarah! How was your weekend?
+
+Sarah: Great, thanks! Caught up on all my Netflix shows. *laughs*
+
+Marcus: Nice. Okay, so let's get your AI receptionist set up so you can stop missing calls while you're out mowing. I've got my notes from our demo call, but I want to go through everything in detail to make sure we get this just right.
+
+Sarah: Sounds good. I'm ready.
+
+Marcus: Perfect. So first, business hours - you said Tuesday through Saturday, 8 AM to 5 PM. Closed Sundays and Mondays. Is that still accurate?
+
+Sarah: Yes, that's right. Although, can the AI take messages on Sundays and Mondays? People might call then, and I don't want them to get nothing.
+
+Marcus: Absolutely. So the AI will answer calls on your days off, take their information, and let them know you'll call back on your next business day. Sound good?
+
+Sarah: Perfect.
+
+Marcus: Great. And you're closed on major holidays - New Year's, Memorial Day, Fourth, Labor Day, Thanksgiving, Christmas. Plus you're taking August 18-24 off this year for vacation.
+
+Sarah: Yep. And actually, I might take a few days around Christmas too, like the week between Christmas and New Year's. Can I update that in the system later?
+
+Marcus: Absolutely. You'll have access to a dashboard where you can mark vacation days, and the AI will automatically adjust its responses.
+
+Sarah: Oh that's perfect.
+
+Marcus: Cool. Now services - residential lawn care only. Weekly or bi-weekly mowing, edging, blowing, spring and fall cleanups, leaf removal, aeration, overseeding, and basic hedge trimming. No big landscaping, no hardscaping, no irrigation.
+
+Sarah: That's right. Oh, I should add - I also do mulch installation. Small beds $120, medium $200, large $300. I forgot to mention that.
+
+Marcus: Adding it now. And for your pricing, let me confirm: weekly or bi-weekly mowing is $40 small yard, $55 medium, $75 large. Spring and fall cleanups are $120/$180/$250. Aeration is $85/$125/$175. Leaf removal is quoted on-site. And now mulch is $120/$200/$300.
+
+Sarah: Exactly.
+
+Marcus: Perfect. And your service area is 10-mile radius around Meadowbrook - so Meadowbrook, Parkside, Hillcrest, and Elmwood neighborhoods.
+
+Sarah: Yes. Actually, I've started going a bit further into Riverside too - that's technically 12 miles, but I have a few clients there now. Can you add that?
+
+Marcus: Sure thing. So 10-12 mile radius including Riverside. Got it. Now, when new customers call, what information do you need?
+
+Sarah: Name, address - I need the full address to verify they're in my service area - phone number, email if they have one, and what services they're interested in.
+
+Marcus: And you said you don't typically do scheduled estimates - you just swing by when you're in the area?
+
+Sarah: Right. So the AI should tell them I'll assess their property when I'm in the neighborhood and call them with a quote. Usually within 2-3 business days. But if they really need a specific appointment time, the AI can take their availability and I'll try to accommodate.
+
+Marcus: Got it. So default is "I'll come by and call you," but if they push for an appointment, take their info and you'll reach out to schedule.
+
+Sarah: Exactly.
+
+Marcus: Perfect. Now, existing customers - they call about schedule changes, adding services, payment stuff. How should the AI handle that?
+
+Sarah: For schedule changes, they just need to give me at least 24 hours notice. If they call same-day and I'm already on my way, they still get charged 50%. The AI should remind them of that policy.
+
+Marcus: Okay, so the AI confirms their schedule change but reminds them of the 24-hour policy?
+
+Sarah: Yes. And if they're calling same-day, the AI should say "our policy is 24-hour notice, but I'll pass the message to Sarah and she'll do her best to accommodate. Please note that if she's already en route, you'll be charged 50%."
+
+Marcus: Perfect. That's clear but still friendly. What about adding services - like if someone wants to add aeration?
+
+Sarah: AI should quote the price and tell them I'll add it to their next visit or schedule a separate visit depending on what they want.
+
+Marcus: Got it. And payment questions?
+
+Sarah: Just tell them I accept cash, check, credit card through Square, Venmo, and PayPal. Most clients are on monthly auto-billing. If they need to update their payment method, have them call me directly or I can send them a new payment link.
+
+Marcus: Okay, so the AI explains payment options but for changes to auto-billing, you need to handle that?
+
+Sarah: Correct.
+
+Marcus: Makes sense. Now, you mentioned you're full during June, July, August. How should the AI handle new customer inquiries in peak summer?
+
+Sarah: Have the AI say we're at full capacity for the summer season but accepting reservations for fall service starting in September. Take their info and I'll call them in late August to get them on the schedule.
+
+Marcus: Smart. So you don't lose them, just defer the start. Love it.
+
+Sarah: Yeah, I learned that the hard way. Used to just say "we're full, bye" and never heard from them again.
+
+Marcus: *laughs* Well now you won't have to worry about that. Okay, referrals - tree removal goes to TreeMax Services, major landscaping goes to Silver Lake Landscaping. Should the AI give their phone numbers?
+
+Sarah: Oh, yeah that would be great. TreeMax is 555-0198, and Silver Lake Landscaping is... hold on, let me find Mark's card... 555-0176.
+
+Marcus: Got it. So the AI explains you don't offer those services but happily recommends TreeMax for tree work and Silver Lake for major landscaping projects, with phone numbers.
+
+Sarah: Perfect.
+
+Marcus: Great. Now, weather cancellations - you said you don't mow in the rain or when grass is too wet.
+
+Sarah: Right. So if it's raining and someone calls asking where I am, the AI should explain that we don't mow wet grass because it damages the lawn and clogs equipment. We'll reschedule for the next available day.
+
+Marcus: And do you make up the service, or do they just get skipped that week?
+
+Sarah: I make it up - usually within the next day or two. So the AI should say we'll reschedule, not skip.
+
+Marcus: Perfect. Okay, tone and personality - how do you want the AI to sound?
+
+Sarah: Friendly and approachable, but still professional. Like, I want people to feel like they're talking to a real person who cares, not a robot. Warm, you know?
+
+Marcus: I do. And should the AI say "I" like it's you, or "we" like you have a team?
+
+Sarah: Let's go with "we" - sounds more professional.
+
+Marcus: Got it. What about your name - should the AI introduce itself as representing Green Leaf Lawn Care, or as representing you specifically?
+
+Sarah: Just Green Leaf Lawn Care. Keep it company-focused, not about me.
+
+Marcus: Perfect. Now, any FAQs you get a lot that the AI should be ready for?
+
+Sarah: Yeah - people ask about organic options. I use traditional fertilizers and weed control, but I'm happy to discuss organic alternatives with them. So the AI should say we primarily use traditional products but can discuss custom options, and take their info for me to call back.
+
+Marcus: Great. Anything else?
+
+Sarah: Oh, people ask if I'm insured. Yes, fully insured. And licensed - license number LC-4892.
+
+Marcus: Excellent. Licensed, insured, focused on quality residential lawn care. Got it. Anything else you want the AI to know?
+
+Sarah: I think that's everything. Oh wait - can the AI offer to text them? Like, after the call, send them a text confirmation that we got their info and I'll call them back?
+
+Marcus: Absolutely. We can set up automated text confirmations. People love that.
+
+Sarah: Perfect. Yeah, I want them to feel taken care of, even if I'm not picking up the phone personally.
+
+Marcus: I love that. Okay Sarah, I think we're all set. I'm going to build this out today, and we'll have your AI receptionist live by tomorrow afternoon. You'll get access to a dashboard where you can see all calls, transcripts, scheduled services, everything.
+
+Sarah: This is so exciting. I can't wait to just... work. Without my phone constantly ringing.
+
+Marcus: *laughs* That's the dream, right? Okay, I'll do a few test calls tomorrow before we go live, just to make sure everything sounds perfect. If anything's off, we'll adjust it.
+
+Sarah: Sounds great. Thanks Marcus!
+
+Marcus: You got it, Sarah. Talk to you tomorrow!
+
+---
+
+END OF CALL

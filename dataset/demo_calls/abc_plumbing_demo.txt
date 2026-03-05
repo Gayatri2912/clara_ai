@@ -1,0 +1,57 @@
+Demo Call Transcript - ABC Plumbing
+
+Agent: Good morning, thank you for calling ABC Plumbing! This is Sarah. How can I help you today?
+
+Customer: Hi Sarah, my name is John Miller from ABC Plumbing. I'm actually the owner calling to set up our new AI receptionist.
+
+Agent: Perfect! I'm excited to help you set this up. Let me gather all the information I need to configure your system. First, can you confirm the business name?
+
+Customer: Yes, it's ABC Plumbing and Heating.
+
+Agent: Great. And what's your main office address?
+
+Customer: We're located at 1234 Main Street, Springfield, Illinois, 62701.
+
+Agent: Perfect. Now, let's talk about your business hours. When are you typically open?
+
+Customer: We're open Monday through Friday, 8 AM to 5 PM Central Time. We're closed on weekends.
+
+Agent: Got it. And what services do you offer?
+
+Customer: We handle all types of plumbing - general plumbing repairs, water heater installation and repair, drain cleaning, leak detection, pipe repair and replacement, and we also do some HVAC work.
+
+Agent: Excellent. Now, this is important - how do you define an emergency call?
+
+Customer: Good question. Emergencies for us are things like burst pipes, major water leaks, sewage backups, no hot water in winter, frozen pipes, and gas leaks. Basically anything that could cause property damage or is a safety hazard.
+
+Agent: That makes sense. And for emergency calls, who should the system try to reach?
+
+Customer: For emergencies, the system should first try to reach whoever is on call. That would be our on-call tech at 217-555-0123. If they don't answer within 30 seconds, try our operations manager Mike at 217-555-0124. If he doesn't answer, try me, the owner, at 217-555-0125.
+
+Agent: Perfect. And what should happen if none of those people answer?
+
+Customer: If nobody answers after trying all three, the system should take detailed information - name, phone number, address, and description of the emergency. Tell them someone will call them back within 30 minutes. Make sure to emphasize that we'll get back to them quickly.
+
+Agent: Understood. Now for non-emergency calls during business hours, what should happen?
+
+Customer: During business hours, for non-emergency calls, the system should collect the caller's name, phone number, a brief description of the problem, and their address if they need an on-site visit. Then just tell them we'll call them back within 2 hours to schedule.
+
+Agent: Got it. And for after-hours non-emergency calls?
+
+Customer: After hours, if it's not an emergency, just take a message with their name, number, and what they need. Let them know someone will call them back first thing the next business day, which would be by 9 AM.
+
+Agent: Perfect. Are there any special instructions or constraints I should know about?
+
+Customer: Yes, one important thing - we use ServiceTrade for our service management. The AI should never try to create tickets or jobs in ServiceTrade. We'll handle that manually. Just collect information and we'll do the rest.
+
+Agent: That's very helpful. Is there anything else I should know about how you want calls handled?
+
+Customer: I think that covers the basics. Oh, one more thing - we really want the system to be friendly but efficient. Don't keep people on the phone too long asking unnecessary questions. Get the essential info and let them go. People appreciate that.
+
+Agent: Absolutely, I understand. We'll make sure the system is conversational but respectful of people's time. Alright, I think I have everything I need. We'll get your AI receptionist configured and send you the details for review.
+
+Customer: Sounds great, thank you!
+
+Agent: Thank you Mr. Miller, have a great day!
+
+[End of demo call]

@@ -1,0 +1,68 @@
+{
+  "generated_at": "2026-03-05T09:03:13.402113",
+  "total_accounts": 6,
+  "pipeline_statistics": {
+    "demo_calls_processed": 6,
+    "v1_agents_created": 5,
+    "onboarding_calls_processed": 4,
+    "v2_agents_created": 4,
+    "complete_pipelines": 4
+  },
+  "accounts_by_status": {
+    "complete": [
+      {
+        "account_id": "abc_plumbing_and_heating_001",
+        "company_name": "ABC Plumbing and Heating",
+        "created_at": "2026-03-04T09:18:39.225562Z",
+        "v1_ready": true,
+        "v2_ready": true
+      },
+      {
+        "account_id": "green_leaf_lawn_care_001",
+        "company_name": "Green Leaf Lawn Care",
+        "created_at": "2026-03-04T09:18:39.368022Z",
+        "v1_ready": true,
+        "v2_ready": true
+      },
+      {
+        "account_id": "rapid_response_hvac_services_001",
+        "company_name": "Rapid Response HVAC Services",
+        "created_at": "2026-03-04T09:18:39.448349Z",
+        "v1_ready": true,
+        "v2_ready": true
+      },
+      {
+        "account_id": "silver_lake_landscaping_001",
+        "company_name": "Silver Lake Landscaping",
+        "created_at": "2026-03-04T09:18:39.532370Z",
+        "v1_ready": true,
+        "v2_ready": true
+      }
+    ],
+    "v1_ready": [
+      {
+        "account_id": "bens_electric_solutions_001",
+        "company_name": "Ben's Electric Solutions",
+        "created_at": "2026-03-04T09:18:39.297449Z",
+        "v1_ready": true,
+        "v2_ready": false
+      }
+    ],
+    "in_progress": [
+      {
+        "account_id": "gnm_pressure_washing_shelley_manley_403_870_8494_gm_pressurewashyahooca_001",
+        "company_name": "GNM Pressure Washing, Shelley Manley, 403-870-8494, gm_pressurewash@yahoo.ca",
+        "created_at": "2026-03-04T09:18:39.336807Z",
+        "v1_ready": false,
+        "v2_ready": false
+      }
+    ],
+    "created": []
+  },
+  "outputs_generated": {
+    "account_memos": 10,
+    "agent_specs": 9,
+    "system_prompts": 9,
+    "changelogs": 4
+  }
+}

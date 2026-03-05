@@ -1,0 +1,123 @@
+{
+  "name": "Clara AI - Demo to Agent Pipeline",
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "start",
+      "name": "Start",
+      "type": "n8n-nodes-base.start",
+      "typeVersion": 1,
+      "position": [250, 300]
+    },
+    {
+      "parameters": {
+        "path": "demo-call",
+        "method": "POST",
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "id": "webhook_demo",
+      "name": "Webhook - Demo Call",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 1,
+      "position": [450, 200],
+      "webhookId": "demo-call-webhook"
+    },
+    {
+      "parameters": {
+        "path": "onboarding-call",
+        "method": "POST",
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "id": "webhook_onboarding",
+      "name": "Webhook - Onboarding Call",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 1,
+      "position": [450, 400],
+      "webhookId": "onboarding-call-webhook"
+    },
+    {
+      "parameters": {
+        "command": "cd /scripts && python extract_account_memo.py \"{{ $json.transcript_path }}\"",
+        "options": {}
+      },
+      "id": "extract_memo",
+      "name": "Extract Account Memo",
+      "type": "n8n-nodes-base.executeCommand",
+      "typeVersion": 1,
+      "position": [700, 200]
+    },
+    {
+      "parameters": {
+        "command": "cd /scripts && python generate_agent_spec.py \"{{ $json.memo_path }}\"",
+        "options": {}
+      },
+      "id": "generate_agent",
+      "name": "Generate Agent Spec",
+      "type": "n8n-nodes-base.executeCommand",
+      "typeVersion": 1,
+      "position": [950, 200]
+    },
+    {
+      "parameters": {
+        "command": "cd /scripts && python update_agent_version.py --account-id \"{{ $json.account_id }}\" --onboarding \"{{ $json.transcript_path }}\"",
+        "options": {}
+      },
+      "id": "update_agent",
+      "name": "Update Agent to v2",
+      "type": "n8n-nodes-base.executeCommand",
+      "typeVersion": 1,
+      "position": [700, 400]
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ $json }}",
+        "options": {}
+      },
+      "id": "respond_demo",
+      "name": "Respond - Demo Success",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1,
+      "position": [1200, 200]
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ $json }}",
+        "options": {}
+      },
+      "id": "respond_onboarding",
+      "name": "Respond - Onboarding Success",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1,
+      "position": [950, 400]
+    }
+  ],
+  "connections": {
+    "Webhook - Demo Call": {
+      "main": [[{ "node": "Extract Account Memo", "type": "main", "index": 0 }]]
+    },
+    "Extract Account Memo": {
+      "main": [[{ "node": "Generate Agent Spec", "type": "main", "index": 0 }]]
+    },
+    "Generate Agent Spec": {
+      "main": [[{ "node": "Respond - Demo Success", "type": "main", "index": 0 }]]
+    },
+    "Webhook - Onboarding Call": {
+      "main": [[{ "node": "Update Agent to v2", "type": "main", "index": 0 }]]
+    },
+    "Update Agent to v2": {
+      "main": [[{ "node": "Respond - Onboarding Success", "type": "main", "index": 0 }]]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "staticData": null,
+  "tags": [],
+  "triggerCount": 2,
+  "updatedAt": "2026-03-04T10:00:00.000Z",
+  "versionId": "1"
+}

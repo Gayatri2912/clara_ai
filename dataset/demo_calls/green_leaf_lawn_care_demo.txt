@@ -1,0 +1,112 @@
+DEMO CALL TRANSCRIPT - Green Leaf Lawn Care
+
+Date: February 20, 2026
+Duration: 19 minutes
+Prospect: Green Leaf Lawn Care (Sarah Chen, Owner/Operator)
+Clara AI Sales Rep: Marcus Johnson
+
+---
+
+Marcus: Hi Sarah, this is Marcus from Clara AI. How are you doing today?
+
+Sarah: Hi Marcus! I'm good, thanks. Just finishing up some paperwork before I head out to my afternoon jobs.
+
+Marcus: Perfect timing then. So you filled out our contact form saying you need help managing your incoming calls?
+
+Sarah: Yes, absolutely. I'm a one-woman operation right now - me and two part-time helpers during the summer - and I can't keep up with the phone. I'm either out mowing and missing calls, or I'm constantly stopping work to answer the phone. It's not sustainable.
+
+Marcus: I totally understand. How many calls are you getting per day typically?
+
+Sarah: During peak season, probably 20 to 30. Off-season it drops to maybe 5 to 10. But still, when I'm on a riding mower, I can't exactly answer my phone, you know?
+
+Marcus: Absolutely. So tell me about your business - what services do you offer?
+
+Sarah: I focus on residential lawn care. My main services are weekly or bi-weekly lawn mowing, edging, and blowing. I also do spring and fall cleanups, leaf removal, aeration, overseeding, and basic hedge trimming. I keep it pretty simple - no big landscaping projects, no hardscaping, no irrigation. Just the basics, but I do them really well.
+
+Marcus: Quality over quantity, I like that. And what's your service area?
+
+Sarah: I'm in Meadowbrook and I cover about a 10-mile radius. So Meadowbrook, Parkside, Hillcrest, and Elmwood neighborhoods. I try to cluster my clients by area so I'm not driving all over the place burning gas.
+
+Marcus: Smart business strategy. What about your hours of operation?
+
+Sarah: I work Tuesday through Saturday, 8 AM to 5 PM. I take Sundays and Mondays off - that's my time to rest and run errands. During peak summer, I'm fully booked, but spring and fall I can take on new clients more easily.
+
+Marcus: Got it. And how do you handle pricing?
+
+Sarah: For weekly mowing, I charge $40 for small yards under quarter-acre, $55 for medium yards quarter to half-acre, and $75 for large yards over half-acre. Bi-weekly mowing is the same price, just less frequent. Spring and fall cleanups are $120 flat rate for small yards, $180 for medium, and $250 for large. Aeration is $85 for small, $125 for medium, $175 for large. Leaf removal is quoted on-site depending on how many leaves.
+
+Marcus: Okay, so mostly standard pricing except leaf removal needs a quote?
+
+Sarah: Yeah, exactly. Some properties have two trees, some have ten. Big difference in the work involved.
+
+Marcus: Makes sense. Do you do any emergency services?
+
+Sarah: Not really. I mean, if a current customer has a fallen branch blocking their driveway after a storm, I'll come out and help as a favor, but I don't advertise emergency services. I'm more of a maintenance company - preventative care, keeping things looking nice week after week.
+
+Marcus: Understood. What about new customer inquiries - how do you typically handle those?
+
+Sarah: I ask for their name, address, phone number, and email. I ask about their lot size and what services they're interested in. If they want a quote, I can give them pricing over the phone for the standard stuff. For leaf removal or anything unusual, I tell them I'll stop by on my next time in their neighborhood and call them with a quote.
+
+Marcus: Do you do formal estimates with appointments?
+
+Sarah: Not usually. I'm trying to maximize my time actually working, so I'll swing by when I'm in the area, take a quick look, snap a photo, and then call them with pricing. But if someone really wants me to come at a specific time, I can do that - just not my preference.
+
+Marcus: That's totally fair. So the AI could tell people you'll assess their property when you're in the area and call them back?
+
+Sarah: Yeah, perfect. Or if they really need a scheduled appointment, the AI could ask for their availability and I'll try to accommodate.
+
+Marcus: Great. What about existing customers - what do they typically call about?
+
+Sarah: Mostly scheduling stuff. "Can you come a day early this week, we're having a party?" or "Can you skip next week, we're on vacation?" Or they want to add on a service like aeration. Sometimes they need to update their payment method.
+
+Marcus: How do they pay you?
+
+Sarah: I take cash, check, credit card through Square, Venmo, or PayPal. Most of my clients are on auto-billing - I invoice them monthly and it auto-charges their card on file. Makes life so much easier.
+
+Marcus: Nice. And do you have any special policies the AI should know about?
+
+Sarah: Yes - I have a 24-hour cancellation policy. If they cancel same-day and I'm already on my way, they still get charged 50%. It's happened too many times where I drive 20 minutes and they're like "oh we decided to mow it ourselves." I'm done with that.
+
+Marcus: Totally reasonable. What about weather cancellations on your end?
+
+Sarah: If it's raining or the ground is too wet, I'll reschedule. I don't mow wet grass - it clogs the mower and looks terrible. The AI should tell them that if they're calling on a rainy day wondering where I am.
+
+Marcus: Makes sense. Do you take on new clients year-round?
+
+Sarah: Spring and fall, yes. Peak summer, I'm usually full. So like June, July, August, I'm not taking new clients unless someone cancels. But April, May, September, October - I'm actively looking for new business.
+
+Marcus: Got it. And you mentioned two part-time helpers in the summer - should the AI mention that you have a team, or just represent you?
+
+Sarah: Just say "we" - sounds more professional than "it's just me and my mower." 
+
+Marcus: *laughs* Fair enough. What about referrals? Do you get asked about services you don't offer?
+
+Sarah: Yeah, people ask about tree removal and major landscaping projects. For trees, I refer them to TreeMax Services - they're great. For landscaping, I send them to Silver Lake Landscaping - Mark does good work.
+
+Marcus: Perfect. And holidays - when are you closed?
+
+Sarah: All major holidays. New Year's, Memorial Day, Fourth of July, Labor Day, Thanksgiving, Christmas. And I usually take a week off in late August before fall season starts - that's my vacation week. This year it'll be August 18-24.
+
+Marcus: Okay, so the AI would let people know you're on vacation that week?
+
+Sarah: Yep. And they can still leave messages, I'll call them back when I'm back.
+
+Marcus: Excellent. So to recap: the AI handles all your incoming calls, quotes standard pricing, takes info for property assessments, manages scheduling requests from existing customers, explains your cancellation policy, refers tree and major landscaping work, and handles calls during your off hours and vacation. Sound right?
+
+Sarah: That sounds perfect. How much?
+
+Marcus: For your call volume, it'd be $199 per month, unlimited calls.
+
+Sarah: $199... you know what, if I can land just one extra client per month because I'm not missing calls, that pays for itself. I'm in.
+
+Marcus: Awesome! I'll send you a welcome email and we'll schedule an onboarding call. Usually takes about an hour to get everything set up and trained. When's good for you?
+
+Sarah: How about next Monday morning? I'm off Mondays.
+
+Marcus: Perfect. Let's do 9 AM. I'll send the calendar invite. Welcome aboard, Sarah!
+
+Sarah: Thanks Marcus, this is going to be a game-changer!
+
+---
+
+END OF CALL

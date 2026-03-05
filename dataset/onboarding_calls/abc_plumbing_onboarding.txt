@@ -1,0 +1,49 @@
+Onboarding Call Transcript - ABC Plumbing
+
+Agent: Hi John, this is Sarah calling about the ABC Plumbing AI receptionist we set up. How are you?
+
+Customer: Hey Sarah, I'm good! Thanks for following up.
+
+Agent: Of course! I wanted to walk through the configuration we created from our demo call and see if anything needs to be adjusted now that you've had time to think about it.
+
+Customer: Yeah, actually I do have a few updates.
+
+Agent: Perfect, what would you like to change?
+
+Customer: First, we decided to extend our hours. We're now going to be open Monday through Friday 7 AM to 6 PM instead of 8 to 5. And we're also going to start being open on Saturdays from 9 AM to 2 PM.
+
+Agent: Great, so Monday-Friday 7-6 and Saturday 9-2, all Central Time?
+
+Customer: Yes, exactly.
+
+Agent: Got it. What else?
+
+Customer: We hired a second on-call technician, so for emergency routing, after trying the first on-call tech at 217-555-0123, the system should try our new backup tech Sarah Johnson at 217-555-0130 before going to Mike the operations manager.
+
+Agent: Perfect, so the order is: primary on-call tech (217-555-0123), backup tech Sarah (217-555-0130), then operations manager Mike (217-555-0124), then you as owner (217-555-0125)?
+
+Customer: Exactly right.
+
+Agent: Excellent. Anything else?
+
+Customer: Yes, we're adding two new services. We're now offering emergency water extraction for flooding situations, and we're also doing sump pump installation and repair.
+
+Agent: Got it, I'll add those to your services list. Any changes to how you want calls handled or what qualifies as an emergency?
+
+Customer: Actually, yes. Add flooding and sump pump failure to the emergency list.
+
+Agent: Makes sense. Those definitely qualify as emergencies. Anything else?
+
+Customer: One more thing - for after hours non-emergency calls, can we change it so the system tells people we'll call them back by 8 AM the next business day instead of 9 AM? We're starting earlier now so that's more accurate.
+
+Agent: Absolutely, I'll update that. So to summarize the changes: extended hours to 7-6 weekdays and added Saturday 9-2, added backup on-call tech Sarah in the routing, added water extraction and sump pump services, added flooding and sump pump failure to emergencies, and changed the after-hours callback promise to 8 AM instead of 9 AM.
+
+Customer: That's perfect, you got it all.
+
+Agent: Great! I'll update your configuration and send you the revised setup to review. It should be ready this afternoon.
+
+Customer: Sounds good, thank you!
+
+Agent: My pleasure, talk soon!
+
+[End of onboarding call]

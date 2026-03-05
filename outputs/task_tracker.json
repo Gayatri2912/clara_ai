@@ -1,0 +1,217 @@
+{
+  "created_at": "2026-03-04T09:18:39.225562Z",
+  "last_updated": "2026-03-05T03:26:31.376983Z",
+  "accounts": {
+    "abc_plumbing_and_heating_001": {
+      "account_id": "abc_plumbing_and_heating_001",
+      "company_name": "ABC Plumbing and Heating",
+      "created_at": "2026-03-04T09:18:39.225562Z",
+      "status": "complete",
+      "pipeline_stages": {
+        "demo_call_processed": true,
+        "v1_agent_created": true,
+        "onboarding_processed": true,
+        "v2_agent_created": true
+      },
+      "timestamps": {
+        "demo_call_processed": "2026-03-04T16:14:05.730083Z",
+        "v1_agent_created": "2026-03-04T09:18:39.255056Z",
+        "onboarding_processed": "2026-03-04T09:18:39.266109Z",
+        "v2_agent_created": "2026-03-04T09:18:39.280553Z"
+      },
+      "notes": [
+        {
+          "timestamp": "2026-03-04T09:18:39.242279Z",
+          "message": "Backfilled from existing files"
+        },
+        {
+          "timestamp": "2026-03-04T09:18:39.255056Z",
+          "message": "Backfilled from existing files"
+        },
+        {
+          "timestamp": "2026-03-04T09:18:39.266109Z",
+          "message": "Backfilled from existing files"
+        },
+        {
+          "timestamp": "2026-03-04T09:18:39.281583Z",
+          "message": "Backfilled from existing files"
+        },
+        {
+          "timestamp": "2026-03-04T16:14:05.732396Z",
+          "message": "Extracted from abc_plumbing_demo.txt"
+        }
+      ]
+    },
+    "bens_electric_solutions_001": {
+      "account_id": "bens_electric_solutions_001",
+      "company_name": "Ben's Electric Solutions",
+      "created_at": "2026-03-04T09:18:39.297449Z",
+      "status": "v1_ready",
+      "pipeline_stages": {
+        "demo_call_processed": true,
+        "v1_agent_created": true,
+        "onboarding_processed": false,
+        "v2_agent_created": false
+      },
+      "timestamps": {
+        "demo_call_processed": "2026-03-04T09:18:39.311363Z",
+        "v1_agent_created": "2026-03-05T03:26:31.376983Z"
+      },
+      "notes": [
+        {
+          "timestamp": "2026-03-04T09:18:39.311363Z",
+          "message": "Backfilled from existing files"
+        },
+        {
+          "timestamp": "2026-03-04T09:18:39.325907Z",
+          "message": "Backfilled from existing files"
+        },
+        {
+          "timestamp": "2026-03-04T16:55:32.468180Z",
+          "message": "Generated agent: Ben's Electric Solutions AI Receptionist"
+        },
+        {
+          "timestamp": "2026-03-05T03:26:31.376983Z",
+          "message": "Generated agent: Ben's Electric Solutions AI Receptionist"
+        }
+      ]
+    },
+    "gnm_pressure_washing_shelley_manley_403_870_8494_gm_pressurewashyahooca_001": {
+      "account_id": "gnm_pressure_washing_shelley_manley_403_870_8494_gm_pressurewashyahooca_001",
+      "company_name": "GNM Pressure Washing, Shelley Manley, 403-870-8494, gm_pressurewash@yahoo.ca",
+      "created_at": "2026-03-04T09:18:39.336807Z",
+      "status": "in_progress",
+      "pipeline_stages": {
+        "demo_call_processed": true,
+        "v1_agent_created": false,
+        "onboarding_processed": false,
+        "v2_agent_created": false
+      },
+      "timestamps": {
+        "demo_call_processed": "2026-03-05T03:24:07.402371Z"
+      },
+      "notes": [
+        {
+          "timestamp": "2026-03-04T09:18:39.359178Z",
+          "message": "Backfilled from existing files"
+        },
+        {
+          "timestamp": "2026-03-04T16:54:28.812140Z",
+          "message": "Extracted from bens_electric_solutions_demo.txt"
+        },
+        {
+          "timestamp": "2026-03-05T03:24:07.402371Z",
+          "message": "Extracted from bens_electric_solutions_demo.txt"
+        }
+      ]
+    },
+    "green_leaf_lawn_care_001": {
+      "account_id": "green_leaf_lawn_care_001",
+      "company_name": "Green Leaf Lawn Care",
+      "created_at": "2026-03-04T09:18:39.368022Z",
+      "status": "complete",
+      "pipeline_stages": {
+        "demo_call_processed": true,
+        "v1_agent_created": true,
+        "onboarding_processed": true,
+        "v2_agent_created": true
+      },
+      "timestamps": {
+        "demo_call_processed": "2026-03-04T09:18:39.382109Z",
+        "v1_agent_created": "2026-03-04T09:18:39.398725Z",
+        "onboarding_processed": "2026-03-04T09:18:39.415094Z",
+        "v2_agent_created": "2026-03-04T09:18:39.432132Z"
+      },
+      "notes": [
+        {
+          "timestamp": "2026-03-04T09:18:39.382109Z",
+          "message": "Backfilled from existing files"
+        },
+        {
+          "timestamp": "2026-03-04T09:18:39.398725Z",
+          "message": "Backfilled from existing files"
+        },
+        {
+          "timestamp": "2026-03-04T09:18:39.415094Z",
+          "message": "Backfilled from existing files"
+        },
+        {
+          "timestamp": "2026-03-04T09:18:39.432132Z",
+          "message": "Backfilled from existing files"
+        }
+      ]
+    },
+    "rapid_response_hvac_services_001": {
+      "account_id": "rapid_response_hvac_services_001",
+      "company_name": "Rapid Response HVAC Services",
+      "created_at": "2026-03-04T09:18:39.448349Z",
+      "status": "complete",
+      "pipeline_stages": {
+        "demo_call_processed": true,
+        "v1_agent_created": true,
+        "onboarding_processed": true,
+        "v2_agent_created": true
+      },
+      "timestamps": {
+        "demo_call_processed": "2026-03-04T09:18:39.465009Z",
+        "v1_agent_created": "2026-03-04T09:18:39.484631Z",
+        "onboarding_processed": "2026-03-04T09:18:39.498104Z",
+        "v2_agent_created": "2026-03-04T09:18:39.518289Z"
+      },
+      "notes": [
+        {
+          "timestamp": "2026-03-04T09:18:39.465009Z",
+          "message": "Backfilled from existing files"
+        },
+        {
+          "timestamp": "2026-03-04T09:18:39.484631Z",
+          "message": "Backfilled from existing files"
+        },
+        {
+          "timestamp": "2026-03-04T09:18:39.498104Z",
+          "message": "Backfilled from existing files"
+        },
+        {
+          "timestamp": "2026-03-04T09:18:39.518289Z",
+          "message": "Backfilled from existing files"
+        }
+      ]
+    },
+    "silver_lake_landscaping_001": {
+      "account_id": "silver_lake_landscaping_001",
+      "company_name": "Silver Lake Landscaping",
+      "created_at": "2026-03-04T09:18:39.532370Z",
+      "status": "complete",
+      "pipeline_stages": {
+        "demo_call_processed": true,
+        "v1_agent_created": true,
+        "onboarding_processed": true,
+        "v2_agent_created": true
+      },
+      "timestamps": {
+        "demo_call_processed": "2026-03-04T09:18:39.548184Z",
+        "v1_agent_created": "2026-03-04T09:18:39.565029Z",
+        "onboarding_processed": "2026-03-04T09:18:39.580142Z",
+        "v2_agent_created": "2026-03-04T09:18:39.598328Z"
+      },
+      "notes": [
+        {
+          "timestamp": "2026-03-04T09:18:39.548184Z",
+          "message": "Backfilled from existing files"
+        },
+        {
+          "timestamp": "2026-03-04T09:18:39.565029Z",
+          "message": "Backfilled from existing files"
+        },
+        {
+          "timestamp": "2026-03-04T09:18:39.581036Z",
+          "message": "Backfilled from existing files"
+        },
+        {
+          "timestamp": "2026-03-04T09:18:39.598328Z",
+          "message": "Backfilled from existing files"
+        }
+      ]
+    }
+  }
+}

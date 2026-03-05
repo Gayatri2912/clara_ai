@@ -1,0 +1,104 @@
+DEMO CALL TRANSCRIPT - Silver Lake Landscaping
+
+Date: February 18, 2026
+Duration: 22 minutes
+Prospect: Silver Lake Landscaping (Mark Davidson, Owner)
+Clara AI Sales Rep: Jennifer Martinez
+
+---
+
+Jennifer: Hi Mark, thanks for taking the time to chat today. I'm Jennifer from Clara AI. How are things going at Silver Lake Landscaping?
+
+Mark: Hey Jennifer, doing well. Pretty busy season coming up, you know how it is in landscaping. Spring is around the corner.
+
+Jennifer: Absolutely. So you mentioned in your inquiry that you're drowning in phone calls during peak season?
+
+Mark: Oh man, yes. We get slammed from March through October. I've got three crews out in the field, and I'm constantly getting calls about quotes, scheduling, people asking if we do tree trimming - which we don't, by the way. It's exhausting.
+
+Jennifer: I can imagine. How many calls would you say you're getting per day during peak season?
+
+Mark: Easy 40 to 50 calls. And that's with me answering my phone while I'm out doing estimates, managing crews. I've missed so many calls, I don't even want to think about the revenue I'm losing.
+
+Jennifer: That's exactly what we solve. Our AI receptionist handles all those inbound calls 24/7. So walk me through - what are your business hours?
+
+Mark: We're officially open Monday through Friday, 7 AM to 6 PM. But honestly, I'm working weekends too during the busy season. Just not taking calls then.
+
+Jennifer: Got it. And what services do you offer?
+
+Mark: We do full-service landscaping - lawn maintenance, mowing, edging, hedge trimming, mulching, seasonal cleanups, irrigation system installation and repair. We also do landscape design and hardscaping like patios and retaining walls.
+
+Jennifer: Nice portfolio. And the tree trimming - you mentioned you don't do that?
+
+Mark: Correct. We get asked about it all the time, but we don't have the equipment or insurance for it. I usually refer people to TreeMax Services - they're good guys.
+
+Jennifer: Perfect, so the AI can handle that referral for you automatically. Now, what about your service area?
+
+Mark: We cover Silver Lake and surrounding areas - basically a 15-mile radius. We go to Lakeville, Riverside, Greenfield, and Oakmont.
+
+Jennifer: Great. And pricing - how do you typically handle that?
+
+Mark: For regular lawn maintenance, we charge based on lot size. Small lots under 5,000 square feet are $45 per visit weekly. Medium lots 5,000-10,000 square feet are $75. Large lots over 10,000 square feet start at $120. For bigger projects like hardscaping or irrigation, I need to come out and do an estimate - too many variables.
+
+Jennifer: That makes sense. So the AI would quote the lawn maintenance prices, and schedule you for estimates on the bigger stuff?
+
+Mark: Yeah, that would be perfect. Oh, and one more thing - we have a minimum service agreement. We require at least a seasonal contract - either spring through fall, or a full year. We don't do one-off mowings unless it's an emergency situation.
+
+Jennifer: Got it, seasonal contracts only. What about emergency services?
+
+Mark: We do emergency cleanups - like after a storm, fallen branches, that kind of thing. We charge $150 per hour for emergency work with a 2-hour minimum. But that's only for existing customers, not random people calling in.
+
+Jennifer: Understood. So the AI would need to verify they're an existing customer before scheduling emergency work?
+
+Mark: Exactly. We've got about 200 regular customers. Most of them are on our spring-to-fall program.
+
+Jennifer: Perfect. Now, when someone calls wanting to schedule, what's your typical process?
+
+Mark: Right now I take down their information - name, address, phone, email if they have it. I ask what service they're looking for, and then I check my schedule. I do all estimates on Tuesdays and Thursdays in the afternoon - that's when I can actually focus on them without crews needing me.
+
+Jennifer: So the AI could schedule estimate appointments for Tuesdays or Thursdays?
+
+Mark: Yeah, afternoons only. I'm usually done with morning checks around 1 PM. So any time between 1 and 5 PM works.
+
+Jennifer: Excellent. What else does the AI need to know?
+
+Mark: Hmm. Oh, we're fully licensed and insured - people ask about that a lot. License number is LSC-2847. And we offer a satisfaction guarantee - if they're not happy, we'll come back and fix it at no charge.
+
+Jennifer: That's great. Love the satisfaction guarantee. Anything else customers frequently ask about?
+
+Mark: Payment - we accept cash, check, credit cards, Venmo, Zelle. For seasonal contracts, we require 50% down and the rest can be paid in monthly installments. For one-time projects, payment is due upon completion.
+
+Jennifer: Perfect. And how would you like the AI to handle after-hours calls?
+
+Mark: Take a message with their info and let them know I'll call back the next business day. Unless it's an existing customer with a storm emergency - then they can leave a voicemail and I'll get an alert.
+
+Jennifer: Makes sense. So for existing customers with emergencies after hours, you want to be notified immediately?
+
+Mark: Yeah, I've got a mobile app for voicemails. I can check those from anywhere.
+
+Jennifer: Excellent. And what about holidays? When are you closed?
+
+Mark: Major holidays - New Year's Day, Memorial Day, Fourth of July, Labor Day, Thanksgiving, Christmas. We're also closed the day after Thanksgiving - that's family time.
+
+Jennifer: Wonderful. So our AI receptionist would handle all these calls, quote your standard prices, schedule estimate appointments, refer tree trimming requests to TreeMax, and handle emergency requests from existing customers. How does that sound?
+
+Mark: Honestly, that sounds like a dream. How much does this cost?
+
+Jennifer: Our pricing for your call volume would be around $299 per month, unlimited calls. There's no setup fee if you sign up in the next week.
+
+Mark: $299 a month... you know what, if it saves me from answering 50 calls a day, that's worth it. I can actually focus on running the business instead of being a receptionist.
+
+Jennifer: Exactly. You'll get a dashboard where you can see all calls, transcripts, scheduled appointments, everything.
+
+Mark: I love it. Let's do it.
+
+Jennifer: Fantastic! I'm going to send you a welcome email with our onboarding steps. We'll need to do a kickoff call next week to get all your preferences dialed in and train the AI on how you want calls handled. How's next Tuesday work for you?
+
+Mark: Tuesday works. Morning though - I've got estimates in the afternoon.
+
+Jennifer: Perfect, let's say 10 AM. I'll send you a calendar invite. Welcome to Clara AI, Mark!
+
+Mark: Thanks Jennifer, looking forward to it!
+
+---
+
+END OF CALL

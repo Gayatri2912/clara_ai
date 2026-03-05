@@ -1,0 +1,110 @@
+ONBOARDING CALL TRANSCRIPT - Silver Lake Landscaping
+
+Date: February 25, 2026
+Duration: 28 minutes
+Client: Silver Lake Landscaping (Mark Davidson, Owner)
+Clara AI Onboarding Specialist: Jennifer Martinez
+
+---
+
+Jennifer: Hi Mark, good to see you again! Ready to get your AI receptionist up and running?
+
+Mark: Definitely. I'm excited about this. Had another crazy day yesterday - missed like 8 calls while I was out doing estimates.
+
+Jennifer: Well, those days are about to be over. Let me pull up the notes from our demo call... okay, so I've got most of your info already, but I want to go through some details to make sure the AI handles calls exactly how you want. Sound good?
+
+Mark: Sounds perfect.
+
+Jennifer: Great. So first, let me confirm your business hours: Monday through Friday, 7 AM to 6 PM. Closed weekends and major holidays.
+
+Mark: Actually, I want to make a small change. Can we extend the hours to 7 PM? I've been getting calls around 6:30 from people getting home from work, and I'd like the AI to handle those.
+
+Jennifer: Absolutely, 7 AM to 7 PM Monday through Friday. Got it. Now, services - you do lawn maintenance, mowing, edging, hedge trimming, mulching, seasonal cleanups, irrigation installation and repair, landscape design, and hardscaping. But you don't do tree trimming, right?
+
+Mark: Correct. And one thing I forgot to mention - we also do spring fertilization and weed control. That's a big revenue driver. We charge $65 for small lots, $95 for medium, and $135 for large lots. We do it in April and May.
+
+Jennifer: Perfect, adding that. And you want tree trimming referrals to go to TreeMax Services?
+
+Mark: Yes. Actually, can the AI get their phone number? It's 555-0198. That way if someone calls asking about tree work, they get transferred or given that number right away.
+
+Jennifer: Absolutely. I'll add that. Now, pricing - let me confirm: small lots under 5,000 sq ft are $45 per weekly visit, medium 5,000-10,000 sq ft are $75, large over 10,000 sq ft start at $120. Fertilization is $65/$95/$135. Emergency work is $150/hour with 2-hour minimum for existing customers only. And bigger projects need an estimate scheduled for Tuesdays or Thursdays, 1-5 PM.
+
+Mark: That's all correct.
+
+Jennifer: Great. Now you mentioned requiring seasonal contracts - spring through fall, or full year. No one-off mowings except emergencies. Still the same?
+
+Mark: Yes, exactly. And I want the AI to be clear about that upfront - I don't want people thinking they can just get one mowing and ghost me.
+
+Jennifer: Understood. The AI will explain your seasonal contract requirement. Now, for payment - you take cash, check, credit cards, Venmo, Zelle. Seasonal contracts require 50% down, rest is monthly installments. One-time projects are due upon completion.
+
+Mark: Yep. Oh, and I should mention - for new seasonal contracts, the first payment is due before we start work. I've been burned before by people committing and then backing out after I've scheduled them in.
+
+Jennifer: Good to know. So 50% deposit before first service. Got it. Now, when new customers call wanting service, what information do you need from them?
+
+Mark: Name, phone number, address, email if they have one, and what service they're interested in. Also ask if they're a homeowner or renter - if they're renting, they need to confirm their landlord approved the service agreement.
+
+Jennifer: Smart. I'll add that. And for existing customers calling with schedule changes or service requests?
+
+Mark: Just need to verify who they are - name and address should do it. Then handle whatever they need - reschedule, add a service, whatever.
+
+Jennifer: Perfect. Now, you have about 200 existing customers. How should the AI verify if someone is an existing customer for emergency services?
+
+Mark: If they can give me their address and it matches our records, they're good. But the AI should also ask when their last service was - if they say "oh, a few years ago," they're not a current customer.
+
+Jennifer: Got it. So they need to be active within the last... 6 months? Year?
+
+Mark: Let's say within the last 3 months. If it's been longer, they need to restart a seasonal contract.
+
+Jennifer: Makes sense. Now, what about voicemail or after-hours messages?
+
+Mark: During business hours, the AI should handle everything - don't send me voicemails unless there's something it can't handle. After hours, Monday through Friday after 7 PM and all weekend, the AI should take a message and say I'll call back the next business day. Unless it's an existing customer with a storm emergency - then they can leave a voicemail and I'll get an alert.
+
+Jennifer: Okay, so to clarify: after hours, the AI takes messages for all non-emergency calls, but existing customers with emergencies can leave a voicemail that alerts you immediately?
+
+Mark: Exactly. And just to be clear - "emergency" means storm damage, fallen trees or branches, irrigation system flooding. Not "my grass is long" - that can wait.
+
+Jennifer: *laughs* Right. I'll make sure the AI explains what qualifies as an emergency. Now, tone and personality - how do you want the AI to sound?
+
+Mark: Friendly and professional. I want people to feel taken care of, but not like we're too casual. You know, like "we're experts, but we're also nice people you'd want to work with."
+
+Jennifer: Perfect. And should the AI give your name, or just say "we"?
+
+Mark: Just say "we" or "our team." When I call them back for estimates, they'll get my name then.
+
+Jennifer: Sounds good. What about quotes and pricing - should the AI always give pricing over the phone, or only for certain services?
+
+Mark: Give pricing for regular weekly maintenance and fertilization - that's standard. For everything else - hardscaping, irrigation, landscape design, seasonal cleanups - the AI should say we need to come out and see the property first. Then schedule me for Tuesday or Thursday afternoon.
+
+Jennifer: Got it. And if someone wants an estimate, should the AI check your calendar availability, or just tell them Tuesday/Thursday afternoons and you'll call to confirm the time?
+
+Mark: Just tell them I do estimates on Tuesday and Thursday afternoons, and I'll call them within 24 hours to confirm the specific time. I don't want to give the AI access to my calendar - too complicated.
+
+Jennifer: Totally understand. I'll set it up that way. Now, any specific questions customers ask a lot that you want the AI to be ready for?
+
+Mark: Yeah - people always ask if we're licensed and insured. License number LSC-2847, fully insured. And we have a satisfaction guarantee - if they're not happy, we come back and fix it free.
+
+Jennifer: Love it. That'll be in the AI's knowledge base. Anything else?
+
+Mark: Oh, can the AI tell people we've been in business for 8 years? I feel like that gives people confidence we're not fly-by-night.
+
+Jennifer: Absolutely. 8 years in business, licensed, insured, satisfaction guarantee. Customers love hearing that. Anything else?
+
+Mark: I think that covers it. Oh wait - what if someone calls asking for a discount or price match?
+
+Jennifer: Good question. How do you want to handle that?
+
+Mark: AI should say our pricing is competitive and reflects the quality of our work. If they want to discuss pricing, they can speak with me directly and the AI can take their info and I'll call them back.
+
+Jennifer: Perfect. So the AI doesn't negotiate, but offers to have you call them to discuss. Got it. Alright Mark, I think we've got everything. Let me build this out and we'll have your AI receptionist live by end of day tomorrow. You'll get an email with your login to the dashboard where you can see all calls, transcripts, and scheduled estimates.
+
+Mark: This is great. I can't wait.
+
+Jennifer: One last thing - we'll do a few test calls to make sure everything sounds right. I'll call from my cell and from our office line, pretending to be different types of customers. If anything sounds off, we'll tweak it before we go live. Cool?
+
+Mark: Perfect. Thanks Jennifer!
+
+Jennifer: You got it. Talk soon!
+
+---
+
+END OF CALL

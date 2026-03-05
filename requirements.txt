@@ -1,0 +1,30 @@
+# Python Dependencies for Clara AI Automation Pipeline
+# All free and open-source
+
+# Core
+python-dotenv==1.0.0
+
+# LLM and API
+openai==1.12.0  # Compatible with OpenRouter
+requests==2.31.0
+
+# Data Processing
+pydantic==2.6.1
+jsonschema==4.21.1
+
+# File handling
+pathlib2==2.3.7
+
+# Utilities
+python-dateutil==2.8.2
+pytz==2024.1
+
+# Logging
+colorlog==6.8.2
+
+# Optional: Local LLM support
+# ollama==0.1.6  # Uncomment if using local Ollama
+
+# Development
+black==24.2.0
+pytest==8.0.0

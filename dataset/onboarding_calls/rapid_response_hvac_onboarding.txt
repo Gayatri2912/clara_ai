@@ -1,0 +1,49 @@
+Onboarding Call Transcript - Rapid Response HVAC
+
+Agent: Hi Tom, it's Jennifer. I have your Rapid Response HVAC configuration ready to review.
+
+Customer: Great! Let's go over it.
+
+Agent: Before we do, do you have any changes from what we discussed in the setup call?
+
+Customer: Actually yes, a few things have changed.
+
+Agent: No problem, let's update it. What's different?
+
+Customer: First, we're adjusting our hours. We're now open Monday through Friday 6 AM to 8 PM instead of 7 to 7. Saturdays stay the same, 7 to 7. But we're changing Sunday - we're now open 8 AM to 6 PM on Sundays.
+
+Agent: Got it. Monday-Friday 6-8, Saturday 7-7, Sunday 8-6. What else?
+
+Customer: We added a new service - we're now doing smart thermostat installation and configuration. That's been a big request.
+
+Agent: Perfect, I'll add that. Anything else about services or emergency definitions?
+
+Customer: Yes, add "smart thermostat malfunction during extreme weather" to the emergency list. We've had situations where someone's smart thermostat glitches during a heat wave and they have no way to control their AC.
+
+Agent: That makes sense. I'll add that. What about your emergency routing?
+
+Customer: The on-call number 512-555-0200 stays the same. But we updated our emergency dispatch system - the backup number is now 512-555-0205 instead of 0201. And extend the timeout to 60 seconds instead of 45 before trying the next number. We found 45 seconds wasn't enough time.
+
+Agent: Understood. So 60 second timeout, on-call at 0200, dispatch at 0205, then you at 0202. Anything else?
+
+Customer: Yes, one important update. We're now integrated with ServiceTitan instead of Housecall Pro. Same rule applies though - the AI should not try to create anything in ServiceTitan, we handle that manually.
+
+Agent: Got it, I'll update that. Any changes to call handling or messaging?
+
+Customer: For non-emergency business hours calls, let's change the callback promise from one hour to 30 minutes. We're trying to improve our response time.
+
+Agent: Excellent improvement. So 30 minute callback promise for non-emergency calls during business hours. Is that everything?
+
+Customer: Actually, one more thing. For after-hours non-emergency, change the message to say we'll call back "shortly after we open" instead of giving a specific time like 8 AM. Sometimes we get slammed right when we open and I don't want to miss that promise.
+
+Customer: That's it!
+
+Agent: Perfect. Let me confirm: Updated hours (Mon-Fri 6-8, Sat 7-7, Sun 8-6), added smart thermostat service, added smart thermostat malfunction to emergencies, changed dispatch backup number to 0205, increased timeout to 60 seconds, switched from Housecall Pro to ServiceTitan, reduced callback promise to 30 minutes, and made after-hours message less specific about callback time.
+
+Customer: You got it all!
+
+Agent: Excellent! I'll update everything and send you the revised configuration within a couple hours.
+
+Customer: Thanks Jennifer, appreciate it!
+
+[End of onboarding call]
